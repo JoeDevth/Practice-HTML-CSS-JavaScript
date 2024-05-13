@@ -1,0 +1,9 @@
+#rtext {
+    background: linear-gradient(
+        to left, violet, indigo,blue,green
+        ,yellow,orange,red
+    );
+    background-clip: text;
+    display: inline;
+    color: transparent;
+}
