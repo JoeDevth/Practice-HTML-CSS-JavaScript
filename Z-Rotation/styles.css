@@ -1,0 +1,9 @@
+
+img{
+    margin-left: 100px;
+    margin-top: 50px;
+    animation: example 10s infinite linear;
+}
+@keyframes example {
+    to {transform: rotate(360deg);}
+}

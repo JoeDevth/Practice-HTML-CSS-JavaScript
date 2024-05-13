@@ -1,0 +1,31 @@
+html{background-color: black;}
+
+#lightning{
+    border: 4px solid rgba(0,0,0,0);
+    border-bottom: 22px solid orange;
+    transform: rotate(-160deg);
+    padding: 2px;
+    width: 0;
+    height: 0;
+    margin: 0;
+    overflow:  visible;
+    border-top: 0 solid;
+    border-radius: 0;
+    transform-origin: 50% 50% 0;
+}
+#lightning::after{
+    content:"";
+    position: absolute;
+    top:-9px;
+    left: -8px;
+    border:  5px solid  rgba(0,0,0,0);
+    border-bottom: 25px solid orange;
+    transform:  rotate(4deg);
+    width: 0;
+    height: 0;
+    margin: 0;
+    overflow:  visible;
+    border-top: 0 solid;
+    border-radius: 0;
+    transform-origin:  50% 50% 0;
+}

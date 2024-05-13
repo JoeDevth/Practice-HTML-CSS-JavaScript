@@ -1,0 +1,11 @@
+
+@keyframes example {
+    to {transform: rotateX(360deg);}
+}
+img{
+    width:75px;
+    height: 75px;
+    margin: 20px;
+    animation: example 5s infinite linear;
+    
+}
