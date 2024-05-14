@@ -1,0 +1,16 @@
+#bookmark{
+  width: 40px;
+  height: 70px;
+  background-color: gray;
+  position: relative;
+}
+#bookmark::after{
+    content:"";
+    position: absolute; 
+
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid white;
+    
+    top: 50px;
+}

@@ -1,0 +1,8 @@
+#cone{
+    width: 0PX;
+    height: 0px;
+    border-left: 70px solid transparent;
+    border-right:70px solid transparent;
+    border-radius: 50%;
+    border-top: 100px solid red;
+}

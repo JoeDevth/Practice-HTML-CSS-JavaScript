@@ -1,0 +1,28 @@
+#pencil{
+   background-color: yellow;
+   height: 20px;
+   width: 50px;
+   margin: 50px;
+   position: relative;
+   transform: rotate(-45deg);
+
+}
+#pencil::before,#pencil::after{
+    content:"";
+    position: absolute;
+}
+#pencil::before {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid   wheat;
+    transform: rotate(-90deg);
+    left: -20px;
+
+}
+#pencil::after {
+    height: 20px;
+    width: 10px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: black;
+    left: 50px;
+}

@@ -1,0 +1,12 @@
+#wlan{
+    padding: 7px;
+}
+#wlan, #wlan::before{
+    display: inline-block;
+    border: 20px double transparent;
+    border-top-color: black;
+    border-radius: 50%;
+}
+#wlan::before{
+    content: "";
+}

@@ -1,0 +1,13 @@
+.loading-bar{
+    content: "";
+    display: block;
+    width: 0px;
+    height: 10px;
+    background-color: blue;
+    animation: loading 3s linear infinite;
+}
+@keyframes loading {
+    0%   {width: 0%;}
+    100% {width: 100%;}
+}
+   
