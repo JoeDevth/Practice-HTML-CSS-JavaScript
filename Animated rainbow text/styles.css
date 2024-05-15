@@ -1,0 +1,14 @@
+#artext{
+    background: linear-gradient( to left,
+    violet, indigo, blue ,
+    green, yellow, orange, red);
+    background-clip: text;
+    display: inline;
+    color:transparent;
+    animation: animated 5s linear infinite;
+    margin: 20px 0px 0 20px;
+    top: 50%;
+}
+@keyframes animated { 
+    to {background-position-x: 161px ;}
+}

@@ -1,0 +1,15 @@
+#mail{
+    height: 50px;
+    width: 75px;
+    margin: 20%;
+    margin-top: 10%;
+    border: 2px solid;
+    position: relative;
+}
+#mail::before {
+    content: "";
+    position: absolute;
+    border-top: 30px solid black;
+    border-left: 37.5px solid transparent;
+    border-right: 38px solid transparent;
+}

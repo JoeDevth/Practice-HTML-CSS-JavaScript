@@ -1,0 +1,24 @@
+#clock{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: gray;
+    position: relative;
+}
+#clock::before, #clock::after {
+    content: "";
+    position: absolute;
+    background-color: white;
+    width: 3px;
+}
+#clock::before {
+    height: 20px;
+    left: 22.5px;
+    top: 3px;
+}
+#clock::after {
+    height: 15px;
+    left: 28.5px;
+    top: 20px;
+    transform:  rotate(120deg);
+}

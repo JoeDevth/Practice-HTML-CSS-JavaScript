@@ -1,0 +1,21 @@
+#bell{
+    height: 0px;
+    width: 21px;
+    margin: 20%;
+    margin-top: 10%;
+    position: relative;
+    border-bottom: 30px solid gold;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-radius: 50% 50% 0% 0%;
+}
+#bell::after {
+    content: "";
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color:gold;
+    top: 22px;
+    left: 2.5px;
+    border-radius: 0% 0% 50% 50%;
+}
