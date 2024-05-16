@@ -1,0 +1,30 @@
+#folder{
+    position: relative;
+    margin: 50px;
+    height: 100px;
+    width: 150px;
+    border-radius:  0% 10% 10% 10%;
+}
+#folder, #folder::before, #folder::after{
+    border: 5px solid;
+    background-color: white;
+}
+#folder::before, #folder::after{
+    content: "";
+    position: absolute;
+}
+#folder::before {
+    height: 20px;
+    width: 35px;
+    border-width:  5px 5px 0px 5px;
+    border-radius: 10px 10px 0px 5px;
+    top: -25px;
+    left: -5px;
+}
+#folder::after {
+    height: 80px;
+    width: 151px;
+    transform: skewX(-7deg);
+    top: 15px;
+    border-radius: 10%;
+}

@@ -1,0 +1,12 @@
+#spinner{
+   height: 30px;
+   width: 30px;
+   margin: 50px;
+   border: 7px solid;
+   border-radius: 50%;
+   border-color: skyblue gray gray gray;
+   animation: rotate 1.5s linear infinite;
+}
+@keyframes rotate {
+    to { transform: rotate(365deg);}
+}

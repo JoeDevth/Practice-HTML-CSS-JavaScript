@@ -1,0 +1,32 @@
+#file{
+    height: 100px;
+    width: 75px;
+    margin: 20%;
+    margin-top: 10%;
+    position: relative;
+    border: 4px solid black;
+    border-radius: 10%;
+
+}
+#file::before, #file::after {
+    content: "";
+    position: absolute;
+}
+#file::before {
+    background-color: white;
+    height: 24px;
+    width: 24px;
+    left: 51px;
+    top: -4px;
+    border-bottom-left-radius: 30%;
+    border-left: 4px solid;
+    border-bottom: 4px solid;
+}
+#file::after{
+    background-color: black;
+    height: 4px;
+    width: 35px;
+    left: 48px;
+    top: 8px;
+    transform: rotateZ(45deg);
+}

@@ -1,0 +1,25 @@
+#paperplane{
+    height: 2px ;
+    width: 55px;
+    background-color: #000;
+    margin:  50px;
+    position: relative;
+    transform:  rotate(-30deg);
+}
+#paperplane::before,#paperplane::after {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 70px;
+    border: 2px solid;
+    border-color: transparent transparent
+    black black;
+    transform:  rotateZ(-22deg) skewX(-40deg);
+    top: -11px;
+    left: -8px;
+    
+}
+#paperplane::after {
+    transform: rotateX(160deg) rotateZ(-22deg) 
+    skewX(-40deg);
+}
