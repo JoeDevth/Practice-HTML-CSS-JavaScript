@@ -1,0 +1,18 @@
+#location{
+   height: 60px;
+   width: 60px;
+   background-color: black;
+   border-radius: 50% 50% 50% 0% ;
+    transform: rotate(-45deg);
+    position: relative;
+}
+#location::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    transform: translate(50%, 50%);
+   
+}

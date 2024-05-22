@@ -1,0 +1,23 @@
+#house{
+   position: relative;
+   margin: 25px;
+   border-bottom: 20px solid black;
+   border-left: 20px solid transparent;
+   border-right: 20px solid transparent;
+   display: inline;
+
+}
+#house::before, #house::after {
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%,
+    10% 100%, 10% 50%,0% 50%);
+    top: 37px;
+}
+#house::after {
+    transform: rotateY(180deg);
+    left: -20px;
+}
