@@ -1,0 +1,7 @@
+#heading {
+    animation: fadein 3s linear;
+    opacity: 1;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+}           

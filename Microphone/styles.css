@@ -1,0 +1,29 @@
+#mic {
+    height: 20px;
+    width: 10px;
+    margin: 10%;
+    border: 2px solid black;
+    border-radius: 50% /40%;
+    position: relative;
+}
+#mic::before, #mic::after {
+    content: "";
+    position: absolute;
+}
+#mic::before {
+    height: 20px;
+    width: 20px;
+    border: 2px solid;
+    border-radius: 50%;
+    border-color: transparent transparent black black;
+    transform:  rotate(-45deg);
+    top: 3px;
+    left: -7px;
+}
+#mic::after {
+    height: 11px;
+    width: 2px;
+    background-color: black;
+    top: 26px;
+    left: 4px;
+}

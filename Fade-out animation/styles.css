@@ -1,0 +1,7 @@
+#heading {
+    animation: fadeout 3s linear;
+    opacity: 0;
+}
+@keyframes fadeout {
+    from { opacity: 1;}
+}           
