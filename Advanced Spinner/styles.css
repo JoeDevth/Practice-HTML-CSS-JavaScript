@@ -1,0 +1,28 @@
+#cspinner::before, #cspinner::after {
+    aspect-ratio: 1/1;
+    border: 7px solid;
+    border-radius: 50%;
+    border-color: blue transparent 
+    lightblue transparent;
+    position: absolute;
+    content: "";
+    margin-left: 20%;
+    margin-top: 20%;
+}
+#cspinner::before {
+    width: 55px;
+    animation: counter-rotate 4s linear infinite;
+}
+#cspinner::after {
+    top: 29px;
+    left: 15px;
+    width: 41px;
+    animation: rotate 4s linear infinite;
+}
+@keyframes rotate {
+    to { transform:  rotate(360deg);}
+
+}
+@keyframes counter-rotate {
+    to { transform:  rotate(-360deg);}
+}

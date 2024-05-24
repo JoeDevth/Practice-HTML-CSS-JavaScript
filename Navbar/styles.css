@@ -1,0 +1,17 @@
+.navelement {
+   display: inline;
+   float: left;
+   padding: 10px;
+   background-color: gray;
+   color: white;
+   transition-duration: 0.7s;
+   border-bottom: 3px solid gray;
+   border-radius: 5px;
+}
+.navelement:hover {
+    border-bottom: 3px solid rgb(78, 76, 76);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 20%;
+} 

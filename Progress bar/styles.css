@@ -1,13 +1,22 @@
-.loading-bar{
-    content: "";
-    display: block;
-    width: 0px;
-    height: 10px;
-    background-color: blue;
-    animation: loading 3s linear infinite;
+#progress{
+    height: 20px;
+    width: 250px;
+    margin: 20%;
+    border-radius: 10px;
+    position: relative;
+    border: 3px solid;
 }
-@keyframes loading {
-    0%   {width: 0%;}
-    100% {width: 100%;}
+#progress::before {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 0px;
+    background: linear-gradient(to right,rgb(250, 102, 102),rgb(255, 208, 0)
+    , rgb(81, 255, 65));
+    animation: progress 3s ease-in-out infinite;
+}
+@keyframes progress {
+    to {width: 250px;};
 }
    

@@ -1,0 +1,19 @@
+#circle{
+   position: relative;
+   margin: 30px;
+}
+#circle::before, #circle::after {
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+#circle::before {
+    animation: grow 1.5s linear infinite ;
+
+}
+@keyframes grow {
+    to {scale: 5;}
+}

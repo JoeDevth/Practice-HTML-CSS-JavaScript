@@ -1,0 +1,19 @@
+#eye {
+    height: 30px;
+    width: 30px;
+    margin: 10%;
+    border: 2px solid;
+    border-radius: 70% 0%;
+    position: relative;
+    transform: rotate(45deg);
+}
+#eye::before {
+    content: "";
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border: 2px solid;
+    border-radius: 50%;
+    top: 5px;
+    left: 5px;
+}
