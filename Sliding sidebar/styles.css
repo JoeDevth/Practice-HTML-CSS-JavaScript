@@ -1,0 +1,15 @@
+.navelement {
+    display: block;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    transition-duration: 0.3s;
+    text-align: center;
+    width: 100px;
+}
+.navelement:hover {
+    background-color: lightblue;
+    color: azure;
+    cursor: pointer;
+    transform: translateY(-20px);
+}
