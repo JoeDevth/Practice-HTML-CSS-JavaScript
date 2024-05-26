@@ -1,0 +1,30 @@
+.navbar > div {
+   padding: 10px;
+   width: 50px;
+   box-shadow: 3px 3px 10px darkblue;
+   cursor: pointer;
+   border-radius: 10%;
+   color: darkblue;
+   text-align: center;
+   scale: 0.8;
+   transition: 0.8s;
+}
+.navbar {
+   display: inline-flex;
+   background-color: lightblue;
+   box-shadow: 3px 3px 10px darkblue;
+   padding: 8px;
+   border-radius: 3% /13% ;
+}
+.navbar > div:hover {
+   scale: 1.2;
+   background-color: darkblue;
+   color: white;
+}
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+ }
