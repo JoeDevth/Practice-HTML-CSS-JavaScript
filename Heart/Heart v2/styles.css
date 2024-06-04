@@ -1,0 +1,9 @@
+#heartV2{
+   width: 150px;
+   aspect-ratio: 1/1;
+   border-image: radial-gradient(red 69%, white 0%)
+   84.5%/ 50%;
+   clip-path: 
+   polygon(-40% 0%, 50% 91%, 140% 0%);
+   margin: 10%;
+}

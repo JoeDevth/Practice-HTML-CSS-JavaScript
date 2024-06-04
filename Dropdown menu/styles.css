@@ -1,0 +1,25 @@
+.dropdown {
+  width:    120px;
+  height: 38px;
+}
+.dropdown > div {
+    display: block;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    transition: 1s;
+    position:relative;
+    cursor: pointer;
+}
+.dropdown > div:first-child {
+    background-color: mediumslateblue;
+}
+.dropdown > div:first-child {
+    z-index: 1;
+    background-color: darkblue;
+}
+.dropdown > div:nth-child(2){ top: -38px; }
+.dropdown > div:nth-child(3){ top: -76px; }
+.dropdown > div:last-child { top: -114px }
+.dropdown:hover > div { top: 0px}

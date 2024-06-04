@@ -1,0 +1,26 @@
+#lock{
+    margin: 50px ;
+    height: 50px ;
+    width: 75px;
+    background-color: black;
+    border-radius: 15%;
+    position: relative;
+}
+#lock::before, #lock::after {
+    border-radius: 30%;
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#lock::before {
+    height: 70px;
+    width: 50px;
+    border: 7px solid;
+}
+#lock::after {
+    height: 20px;
+    width: 10px;
+    background-color: white;
+    top: 50%;
+}
