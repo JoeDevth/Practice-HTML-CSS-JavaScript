@@ -1,0 +1,12 @@
+.pulsating{
+    font-weight: 700;
+    font-size: 80px;
+    animation: pulsating 4s linear infinite;
+    margin: 10%;
+}
+* {
+    background-color: black;
+}
+@keyframes pulsating {
+    50% { text-shadow: 0px 0px 10px blue;}
+}
