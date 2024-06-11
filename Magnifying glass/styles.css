@@ -1,0 +1,18 @@
+#magnify{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 5px solid;
+    position: relative;
+}
+#magnify::before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 20px;
+    background-color: black;
+    top: 20px;
+    transform: rotate(-30deg);
+    left:20px;
+
+}
