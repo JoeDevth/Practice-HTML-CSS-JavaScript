@@ -1,0 +1,24 @@
+#boat {
+  margin: 100px;
+  width: 40px;
+  border-top: 20px solid brown;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  position: relative;
+}
+#boat::before, #boat::after {
+  content: "";
+  position: absolute;
+}
+#boat::before {
+  border-left: 30px solid blue;
+  border-top: 40px solid transparent;
+  bottom: 22px;
+  left: 27px;
+}
+#boat::after {
+  border-right: 40px solid blue;
+  border-top: 60px solid transparent;
+  bottom: 22px;
+  left: -15px;
+}

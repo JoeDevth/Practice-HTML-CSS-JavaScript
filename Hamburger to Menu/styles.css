@@ -1,0 +1,28 @@
+.humburger {
+    display: inline-block;
+
+}
+.humburger> div {
+    margin-top: 5px;
+    height: 10px;
+    aspect-ratio: 5/1;
+    border-radius: 20% / 90%;
+    background-color: darkblue;
+    transition: 0.5s linear;
+    font-size: 0px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.humburger:hover > div {
+    margin-top: 0px;
+    border-radius: 20px;
+    border-bottom: 2px solid blueviolet;
+    height: 30px;
+    font-size: 12px;
+
+}
+.humburger div:hover {
+    background-color: darkslateblue;
+}
