@@ -1,0 +1,25 @@
+#pricetag {
+    margin: 50px;
+    width: 70px;
+    height: 40px;
+    background-color: red;
+    clip-rule: polygon(0% 30%, 25% 0%,
+    100% 0%, 100% 100%, 25% 100%, 0% 70%);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-indent: 15px;
+    font-size: 22px;
+    transform: rotate(30deg);
+}
+#pricetag::before {
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: white;
+    top: 12px;
+    left: 5px;
+}
