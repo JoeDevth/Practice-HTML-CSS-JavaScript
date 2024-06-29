@@ -1,0 +1,14 @@
+input {
+    display: none;
+}
+
+#custom {
+    height: 50px;
+    width: 50px;
+    background: conic-gradient(red,
+            orange, yellow), green, blue,
+        indigo, violet, red;
+    border-radius: 50%;
+    border: 2px solid lightgray;
+    display: block;
+}
