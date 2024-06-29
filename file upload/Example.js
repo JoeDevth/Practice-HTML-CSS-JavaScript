@@ -6,7 +6,7 @@ upload.addEventListener("change", (event) => {
     if (file) {
         const render = new FileReader();
         render.upload = (e) => {
-            image.src = e.tarlget.result;
+            image.src = e.target.result;
         };
         render.readAsDataURL(file);
     }
