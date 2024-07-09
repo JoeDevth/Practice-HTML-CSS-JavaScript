@@ -1,0 +1,15 @@
+#container {
+    font-size: 0px;
+    margin: 50px;
+}
+#container > span {
+    font-size: 40px;
+    font-weight: 500;
+    display: inline-block;
+}
+@keyframes wave {
+    0% {transform: translateY(0px);}
+    25% {transform: translateY(-20px);}
+    75% {transform: translateY(20px);}
+    100% {transform: translateY(0px);}
+}
