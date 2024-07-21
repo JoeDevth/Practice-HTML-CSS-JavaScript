@@ -4,7 +4,7 @@ label {
 input {
     background-color: lightblue;
     width: 0px;
-    transition: width 1s , border-radius 1s;
+    transition: width 0.5s , border-radius 0.5s;
     border-radius: 50%;
     border-color: transparent;
     outline: none;
@@ -14,7 +14,7 @@ input {
 }
 input:focus {
     width:150px;
-    border-radius: 10%/20%;
+    border-radius: 20px;
     color: black;
 }
 img {

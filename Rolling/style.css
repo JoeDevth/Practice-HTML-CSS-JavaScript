@@ -1,0 +1,15 @@
+#container {
+    margin: 50px;
+    font-size: 30px;
+}
+#text-container {
+    display: inline-block;
+    font-weight: 600;
+    transition: tranform 1s linear;        
+}
+#text-container > span {
+    display: block;
+    opacity: 0.3;
+    scale: 0.8;
+    transition: 1s linear;
+}
