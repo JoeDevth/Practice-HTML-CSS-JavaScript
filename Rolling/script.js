@@ -1,5 +1,3 @@
-const { text } = require("stream/consumers");
-
 let textContainer = document.getElementById(
     "text-container"
 )
