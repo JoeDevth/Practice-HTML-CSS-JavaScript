@@ -21,4 +21,4 @@ setInterval(() => {
     `translateY(calc(${textElements.length-1 - currentElement}*34px))`;
     currentElement == 0 ?
     currentElement = textElements.length-1 : currentElement-=1;
-}, 1100)
+}, 1000)
