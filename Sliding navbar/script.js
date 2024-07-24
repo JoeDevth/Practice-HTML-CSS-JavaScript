@@ -8,7 +8,7 @@ function getNthChils(element) {
 document.querySelectorAll(".navbar > span").forEach((element) => {
     span.addEventListener("mouseover", (element) => {
         let nthChild = getNthChild(element.target);
-        
+        slider.style.setProperty("--value", nthChild);
     })
 })
     
