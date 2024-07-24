@@ -19,7 +19,7 @@
     height: 5px;
     background-color: rgb(0, 0, 0);
     transition: 0.3s ease-in-out;
-    margin-left: calc(var(--value) * 70px);
+    margin-left: calc(var(--value) * 120px);
 }
 .navbar > span:hover {
     cursor: pointer;
