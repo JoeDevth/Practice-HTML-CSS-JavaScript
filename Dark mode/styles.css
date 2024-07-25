@@ -1,0 +1,5 @@
+body {
+    --value : white;
+    background-color: var(--value);
+    transition: background-color 1s;
+}
